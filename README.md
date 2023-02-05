@@ -59,12 +59,24 @@ The data was small enough that lemmatization was usable to reduce the dimensiona
 - Looking at the number of negative sentiments, **United Airline** ranks the first, followed by **US Airways Airline** and **American Airline**.
 
 ## Modeling
+- Throughout the project, our goal was reducing False Negatives and False Positives
+
+  -**False Positive:** Model predicts negative tweet but it's actually positive, leading to wrong customer service response and wasting company time/money.
+  
+  -**False Negative:** Model predicts positive tweet but it's actually negative, leading to lack of proper customer service and potential loss of customer.
+
+- To balance the downsides of False Positive and False Negative, F1-score is used to find maximum negative sentiment tweets while avoiding incorrect customer service actions.
 
 <img src="images/Comparing F1 Score.png" width="800">
 
 <img src="images/Comparing Accuracy.png" width="800">
 
+## Best Performing Model
+
+-  Best accuracy and F1 score were achieved through parameter tuning with GridSearch on **Support Vector Classifier.**
+
 <img src="images/Best Model CM.png" width="800">
+
 
 
 
