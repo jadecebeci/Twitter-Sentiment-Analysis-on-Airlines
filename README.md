@@ -52,6 +52,4 @@ The data was small enough that lemmatization was usable to reduce the dimensiona
 
 <img src="images/EDA3.png" width="800">
 
-
-
 ## Methods
