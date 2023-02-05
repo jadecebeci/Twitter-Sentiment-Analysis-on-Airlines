@@ -59,6 +59,21 @@ The data was small enough that lemmatization was usable to reduce the dimensiona
 - Looking at the number of negative sentiments, **United Airline** ranks the first, followed by **US Airways Airline** and **American Airline**.
 
 ## Modeling
+
+- The sentiment column served as the target, and tweet column as the predictor variable in our modeling. 
+- Class imbalance was an issue found during modeling. 
+- Logistic Regression, Naive Bayes, Support Vector Classifier were tested as well as LSTM network
+- Although most of models had overfitting issues, Multinomial Naive Bayes showed slight improvement on overfitting with the highest accuracy of 91%
+
+
+<img src="images/Comparing F1 Score.png" width="800">
+
+<img src="images/Comparing Accuracy.png" width="800">
+
+
+
+## Best Performing Model
+
 - Throughout the project, our goal was reducing False Negatives and False Positives
 
   -**False Positive:** Model predicts negative tweet but it's actually positive, leading to wrong customer service response and wasting company time/money.
@@ -67,15 +82,9 @@ The data was small enough that lemmatization was usable to reduce the dimensiona
 
 - To balance the downsides of False Positive and False Negative, F1-score is used to find maximum negative sentiment tweets while avoiding incorrect customer service actions.
 
-<img src="images/Comparing F1 Score.png" width="800">
-
-<img src="images/Comparing Accuracy.png" width="800">
-
-## Best Performing Model
+<img src="images/Best Model CM.png" width="800">
 
 -  Best accuracy and F1 score were achieved through parameter tuning with GridSearch on **Support Vector Classifier.**
-
-<img src="images/Best Model CM.png" width="800">
 
 
 
