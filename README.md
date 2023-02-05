@@ -21,7 +21,7 @@ By implementing this system, the airline company can improve customer satisfacti
 
 ## Data Understanding
 
-The dataset used in this project is provided on [Kaggle](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment) and originally collected by Crowdflower’s Data for Everyone library.
+The dataset used in this project is provided from [Kaggle](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment) and originally collected by Crowdflower’s Data for Everyone library.
 
 This Twitter data was scraped on **February 2015**. It contains tweets on six major United States (US) airlines: 
 United, Us Airways, American, Soutwest, Delta and Virgin America.
