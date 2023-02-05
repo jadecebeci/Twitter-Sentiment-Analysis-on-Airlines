@@ -38,12 +38,18 @@ The data was small enough that lemmatization was usable to reduce the dimensiona
 
 - To get a general idea of both the word frequencies and twitter sentiments several data visualizations were made:
 
-<img src="images/positive wordCloud.png" width="800">
+<img src="images/WordCloud Positive.png" width="800">
 
 - The meaningful words that can be spotted in the positive sentiments’ word cloud directly include **“thank”, “flight”** and **“great”**. This shows people tend to appreciate the airline on social media when they have positive flight experience.
 
-<img src="images/negative WordCloud.png" width="800">
+<img src="images/WordCloud Negative.png" width="800">
 
-- We observe from the word cloud that tweets related to **"flight"** and **"hour"** are causing the most negative tweets. And also **"canceled","delayed", "customer"** and **"service"** have higher frequencies than other words.
+- We observe from the word cloud that tweets related to **"flight"** and **"hour"** are causing the most negative tweets. And also **"cancelled","delayed", "customer"** and **"service"** have higher frequencies than other words.
+
+<img src="images/EDA1.png" width="800">
+
+<img src="images/EDA2.png" width="800">
+
+<img src="images/EDA3.png" width="800">
 
 ## Methods
