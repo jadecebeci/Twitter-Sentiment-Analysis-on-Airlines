@@ -6,7 +6,7 @@
 
 * [Business Understanding](#business-understanding)
 * [Data Understanding](#data-understanding)
-* [Methods](#methods)
+* [Modeling](#modeling)
 * [Best Performing Model](#best-performing-model)
 * [Conclusion and recommendation](#conclusion-and-recommendation)
 
@@ -48,8 +48,23 @@ The data was small enough that lemmatization was usable to reduce the dimensiona
 
 <img src="images/EDA1.png" width="800">
 
+- we can clearly see that these tweets are overwhelmingly **negative**.
+
 <img src="images/EDA2.png" width="800">
+
+- Most of the tweets belongs to **United Airlines** and followed by **US Airways , American**.
 
 <img src="images/EDA3.png" width="800">
 
-## Methods
+- Looking at the number of negative sentiments, **United Airline** ranks the first, followed by **US Airways Airline** and **American Airline**.
+
+## Modeling
+
+<img src="images/Comparing F1 Score.png" width="800">
+
+<img src="images/Comparing Accuracy.png" width="800">
+
+<img src="images/Best Model CM.png" width="800">
+
+
+
