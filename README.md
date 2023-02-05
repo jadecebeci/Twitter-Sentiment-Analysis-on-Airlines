@@ -8,7 +8,8 @@
 * [Data Understanding](#data-understanding)
 * [Modeling](#modeling)
 * [Best Performing Model](#best-performing-model)
-* [Conclusion and recommendation](#conclusion-and-recommendation)
+* [Conclusion](#conclusion)
+* [Recommendation](#recommendation)
 
 ## Business Understanding
 
@@ -20,7 +21,7 @@ By implementing this system, the airline company can improve customer satisfacti
 
 ## Data Understanding
 
-The dataset used in this project is provided on Kaggle and originally collected by Crowdflower’s Data for Everyone library.
+The dataset used in this project is provided on [Kaggle](https://www.kaggle.com/datasets/crowdflower/twitter-airline-sentiment) and originally collected by Crowdflower’s Data for Everyone library.
 
 This Twitter data was scraped on **February 2015**. It contains tweets on six major United States (US) airlines: 
 United, Us Airways, American, Soutwest, Delta and Virgin America.
@@ -63,7 +64,7 @@ The data was small enough that lemmatization was usable to reduce the dimensiona
 - The sentiment column served as the target, and tweet column as the predictor variable in our modeling. 
 - Class imbalance was an issue found during modeling. 
 - Logistic Regression, Naive Bayes, Support Vector Classifier were tested as well as LSTM network
-- Although most of models had overfitting issues, Multinomial Naive Bayes showed slight improvement on overfitting with the highest accuracy of 91%
+- Although most of models had overfitting issues, Multinomial Naive Bayes showed slight improvement on overfitting with the highest F1 score of 91%
 
 
 <img src="images/Comparing F1 Score.png" width="800">
@@ -86,6 +87,18 @@ The data was small enough that lemmatization was usable to reduce the dimensiona
 
 -  Best accuracy and F1 score were achieved through parameter tuning with GridSearch on **Support Vector Classifier.**
 
+
+## Recommendation
+
+- One thing I noticed is that a tweet can have positive language, but the user can be using sarcasm which can throw the model off. With more time, we should look deeper into this.
+
+- The bot might offer personalized solutions based on the negative sentiment reason. For example, if a customer is dissatisfied with flight delays,we might offer alternatives such as offering a discount or refund.
+
+## Next Step
+
+- Further investigation into the causes of misclassification could be the next step to enhance the model.
+- The data was limited to tweets from February 2015, it is probable that collecting data for the entire year would result in a more robust and generalizable model.
+- According to the analysis the data set contains way more negative tweets than positive ones. Future works may focus on obtaining a more balanced and larger dataset for better classifier model performance.
 
 
 
