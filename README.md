@@ -22,11 +22,28 @@ By implementing this system, the airline company can improve customer satisfacti
 
 The dataset used in this project is provided on Kaggle and originally collected by Crowdflower’s Data for Everyone library.
 
-This Twitter data was scraped on February 2015. It contains tweets on six major United States (US) airlines: 
+This Twitter data was scraped on **February 2015**. It contains tweets on six major United States (US) airlines: 
 United, Us Airways, American, Soutwest, Delta and Virgin America.
 
-Dataset has 14,640 entries and 15 columns.
+Dataset has **14,640 entries** and **15 columns**.
 
-We have three different target categories as positive, neutral or negative depend on tweet.
+We have three different target categories as **positive, neutral** or **negative** depend on tweet.
+
+### Data Preparation and Exploration
+
+- Duplicated rows were dropped and rows that had missing values were dropped
+
+- Links, punctuation and stopwords were removed from the data prior to modeling. '#' was removed from twitter hashtags.
+The data was small enough that lemmatization was usable to reduce the dimensionality of the data.
+
+- To get a general idea of both the word frequencies and twitter sentiments several data visualizations were made:
+
+<img src="images/positive wordCloud.png" width="800">
+
+- The meaningful words that can be spotted in the positive sentiments’ word cloud directly include **“thank”, “flight”** and **“great”**. This shows people tend to appreciate the airline on social media when they have positive flight experience.
+
+<img src="images/negative WordCloud.png" width="800">
+
+- We observe from the word cloud that tweets related to **"flight"** and **"hour"** are causing the most negative tweets. And also **"canceled","delayed", "customer"** and **"service"** have higher frequencies than other words.
 
 ## Methods
