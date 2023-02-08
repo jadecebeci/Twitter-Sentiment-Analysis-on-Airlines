@@ -104,11 +104,11 @@ The data was small enough that lemmatization was usable to reduce the dimensiona
 
 ```
 ├── images
+├── pdfs
 ├── Exploratory_Data_Analysis.ipynb
 ├── Preprocessing_and_Modeling.ipynb
 ├── README.md
-├── Tweets.csv
-└── pdfs
+└── Tweets.csv 
 ```
 
 
