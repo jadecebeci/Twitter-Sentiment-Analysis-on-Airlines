@@ -100,6 +100,7 @@ The data was small enough that lemmatization was usable to reduce the dimensiona
 - The data was limited to tweets from February 2015, it is probable that collecting data for the entire year would result in a more robust and generalizable model.
 - According to the analysis the data set contains way more negative tweets than positive ones. Future works may focus on obtaining a more balanced and larger dataset for better classifier model performance.
 
+"""
 
 ├── images
 ├── Exploratory_Data_Analysis.ipynb
@@ -107,6 +108,6 @@ The data was small enough that lemmatization was usable to reduce the dimensiona
 ├── README.md
 ├── Tweets.csv
 └── pdfs
-
+"""
 
 
