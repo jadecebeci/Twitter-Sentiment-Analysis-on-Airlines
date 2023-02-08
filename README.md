@@ -101,4 +101,12 @@ The data was small enough that lemmatization was usable to reduce the dimensiona
 - According to the analysis the data set contains way more negative tweets than positive ones. Future works may focus on obtaining a more balanced and larger dataset for better classifier model performance.
 
 
+├── images
+├── Exploratory_Data_Analysis.ipynb
+├── Preprocessing_and_Modeling.ipynb
+├── README.md
+├── Tweets.csv
+└── pdfs
+
+
 
