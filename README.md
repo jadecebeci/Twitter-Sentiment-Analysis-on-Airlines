@@ -64,7 +64,7 @@ The data was small enough that lemmatization was usable to reduce the dimensiona
 - The sentiment column served as the target, and tweet column as the predictor variable in our modeling. 
 - Class imbalance was an issue found during modeling. 
 - Logistic Regression, Naive Bayes, Support Vector Classifier were tested as well as LSTM network
-- Although most of models had overfitting issues, Multinomial Naive Bayes showed slight improvement on overfitting with the highest F1 score of 91%
+- Although most of models had overfitting issues, Support Vector Classifier showed slight improvement on overfitting with the highest F1 score of 91%
 
 
 <img src="images/Comparing F1 Score.png" width="800">
