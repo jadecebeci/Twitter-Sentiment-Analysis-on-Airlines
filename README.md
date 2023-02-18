@@ -102,7 +102,7 @@ The data was small enough that lemmatization was usable to reduce the dimensiona
 
 # For More Information
 
-If you have any additional questions, feel free to contact me at ysm.cebeci@gmail.com or connect with me on [LinkedIn](https://www.linkedin.com/in/yesim-cebeci/). Also, be sure to check out my [blogpost](https://medium.com/@ysm.cebeci/choosing-the-right-nlp-tool-for-feature-extraction-countvectorizer-vs-tf-idf-part1-9e97166c1bb4) for more insights on building a personalized recommendation engine using collaborative filtering techniques.
+If you have any additional questions, feel free to contact me at ysm.cebeci@gmail.com or connect with me on [LinkedIn](https://www.linkedin.com/in/yesim-cebeci/). Also, be sure to check out my [blogpost](https://medium.com/@ysm.cebeci/choosing-the-right-nlp-tool-for-feature-extraction-countvectorizer-vs-tf-idf-part1-9e97166c1bb4) for more insights.
 
 ## Repository Structure
 
